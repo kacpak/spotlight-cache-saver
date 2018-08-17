@@ -7,19 +7,31 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "spotlight-cache": "cli/cli.js"
+    "spotlight-cache-saver": "cli/cli.js"
   },
   "preferGlobal": true,
   "engines": {
     "node": ">=4.0"
   },
+  "directories": {
+    "lib": "lib"
+  },
   "keywords": [],
   "author": "Mateusz Kasprzak <kacpak@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacpak/spotlight-cache-saver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kacpak/spotlight-cache-saver/issues"
+  },
+  "homepage": "https://github.com/kacpak/spotlight-cache-saver#readme",
   "dependencies": {
     "image-size": "^0.6.3",
     "image-type": "^3.0.0",
     "read-chunk": "^2.1.0",
     "yargs": "^12.0.1"
-  }
+  },
+  "devDependencies": {}
 }
