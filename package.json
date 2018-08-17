@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "spotlight-cache-saver": "cli/cli.js"
+    "spotlight-cache-saver": "bin/cli.js"
   },
   "preferGlobal": true,
   "engines": {
