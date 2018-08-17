@@ -1,0 +1,25 @@
+{
+  "name": "spotlight-cache-saver",
+  "version": "1.0.0",
+  "description": "Copies wallpapers from spotlight cache to desired location",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "spotlight-cache": "cli/cli.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [],
+  "author": "Mateusz Kasprzak <kacpak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "image-size": "^0.6.3",
+    "image-type": "^3.0.0",
+    "read-chunk": "^2.1.0",
+    "yargs": "^12.0.1"
+  }
+}
