@@ -1,6 +1,6 @@
 {
   "name": "spotlight-cache-saver",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Copies wallpapers from spotlight cache to desired location",
   "main": "lib/index.js",
   "scripts": {
